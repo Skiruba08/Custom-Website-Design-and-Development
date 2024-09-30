@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Page</title>
+    <link rel="stylesheet" href="index.css">
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="media.html">Media</a></li>
+        </ul>
+    </nav>
+   
+</head>
+
+<body>
+    <div class="media-tabs">
+        <button class="media-tab-button" data-tab-target="recent-videos">Recent Videos</button>
+        <button class="media-tab-button" data-tab-target="music-videos">Music Videos</button>
+        <button class="media-tab-button" data-tab-target="special-videos">Special Videos</button>
+      
+        <div id="recent-videos" class="media-tab-content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/D282v-PFjHI"
+            title="YouTube video player" frameborder="0"></iframe>
+
+        </div>
+      
+        <div id="music-videos" class="media-tab-content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bKvVeA4CksQ"
+            title="YouTube video player" frameborder="0"></iframe>
+
+        </div>
+      
+        <div id="special-videos" class="media-tab-content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/S0mf3PVA6H0"
+            title="YouTube video player" frameborder="0"></iframe>
+
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="jquery.accordians.js"></script>
+</body>
+
+</html>
